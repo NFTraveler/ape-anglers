@@ -3,126 +3,134 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fishing for $APE</title>
+  <title>Ape Anglers Community</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-  body {
-    font-family: 'Outfit', sans-serif;
-    position: relative;
-    background: url('https://raw.githubusercontent.com/NFTraveler/fishing-for-ape/refs/heads/main/ChatGPT%20Image%20Apr%2010%2C%202025%2C%2009_45_30%20PM.png') no-repeat center center fixed;
-    background-size: cover;
-    z-index: 0;
+  html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: url('https://raw.githubusercontent.com/NFTraveler/fishing-for-ape/refs/heads/main/ChatGPT%20Image%20Apr%2010%2C%202025%2C%2009_45_30%20PM.png') no-repeat center center fixed;
+      background-size: 100%;
+      background-position: center top;
+    }
+    nav a:hover {
+      color: #fbbf24;
+    }
+    .hero-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   }
-
-  /* Default section style removed in favor of custom classes */
-
-  
+    .glow-text {
+      text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+    }
+    ::-webkit-scrollbar { height: 8px; }
+    ::-webkit-scrollbar-thumb { background: #fbbf24; border-radius: 4px; }
 </style>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+document.addEventListener('DOMContentLoaded', () => { AOS.init(); });
+</script>
 </head>
-<body class="text-black">
+<body class="text-white">
+  <!-- Navigation -->
+  <nav class="flex justify-center space-x-10 py-6 bg-black bg-opacity-100 border-b-4 border-amber-400 sticky top-0 z-50 text-l tracking-wide">
+    <a href="#about">About</a>
+    <a href="#recentcatches">Recent Catches</a>
+    <a href="#join">Trips</a>
+    <a href="#fishingforape">Fishing for $APE</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
   <!-- Hero Section -->
-  <section class="text-center py-20 px-4 w-full" style="background-color: rgba(255, 255, 255, 0.15);">
-    <h1 class="text-4xl md:text-6xl font-bold mb-4 inline-block px-4 py-2" style="background-color: rgba(255, 255, 255, 0.9); color: #1e3a8a;">FISHING FOR $APE</h1>
-<p class="text-xl text-black font-bold max-w-xl mx-auto">STAKE TO PLAY. FISH TO WIN. </p>
-    <p class="text-xl text-black font-bold italic max-w-xl mx-auto">Join the ultimate APE powered fishing showdown.</p>
+  <section class="relative text-center pt-20 pb-10 px-4 container mx-auto overflow-hidden">
+  <div class="relative" data-aos="fade-up">
+    <img data-aos="zoom-in" src="https://raw.githubusercontent.com/NFTraveler/fishing-for-ape/main/Ape%20Angler%20Saltwater%20Classic%20LOGO.png" alt="Ape Anglers Logo" class="mx-auto mb-6 w-48">
 
-<hr class="border-slate-900 mt-8">
-  <!-- About Section -->
-  <section class="py-8 px-8 w-full" style="background-color: rgba(255, 255, 255, 0.95);">
-    <h2 class="text-3xl font-semibold text-blue-900 mb-4">ABOUT OUR INITIATIVE</h2>
-    <p class="text-black max">Fishing for $APE is an initiative to support a multi-stop, (IRL) fishing tournament series called the “APE ANGLER SALTWATER CLASSIC.” This initiative is designed to reward, educate, and grow the Apechain community while rewarding loyal BAYC & MAYC community members. By combining on-chain incentives with real-world camaraderie and immersive brand storytelling, this initiative brings Apecoin utility to life—casting a wider net to increase Apechain knowledge, onboard new users, and deepen loyalty among current holders.
-      <br><br>This isn’t just a fishing tournament. It’s a proof-of-impact that merges staking incentives with unforgettable community experiences.</p>
-  </section>
-    
-<hr class="border-slate-900 mt-8">
-
-  <!-- Tournament Signup -->
-  <section class="py-8 px-8 w-full text-center" style="background-color: rgba(255, 255, 255, 0.95);">
-  <h2 class="text-3xl font-semibold text-blue-900 mb-4">APE ANGLER SALTWATER CLASSIC</h2>
-  <p class="text-black max mb-6">The APE ANGLERS SALTWATER CLASSIC is a real-world fishing tournament series designed exclusively for active ApeChain community members. Hosted in coastal cities like San Diego and Miami, each event brings together BAYC and MAYC holders with staked ApeCoin for a professionally chartered group fishing trip, immersive brand activations, and on-chain rewards.
-To participate, applicants must hold a BAYC or MAYC NFT and have at least 2,000 $APE staked on ApeChain. Applications are reviewed in advance of each event, and if demand exceeds capacity, participants will be selected via a randomized lottery.
-Every selected angler earns a 50 $APE participation reward, with additional prizes awarded for the biggest catch and the most fish caught across the series. All rewards are distributed transparently on-chain after each event. 
-<br><br>  
-Ready to compete? Apply for a spot on a future trip by filling out our tournament sign-up form.</p>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBrrTnajZVYxErhefHs4c1R49dywzB5UOR_qwacky2DfmiQg/viewform?usp=sharing" target="_blank" class="inline-block bg-amber-400 hover:bg-amber-500 text-slate-900 font-bold py-3 px-9 rounded-full transition">Sign Up</a>
+    </div>
+     
+    <p class="text-xl max-w-3xl mx-auto mt-4 mb-6 text-black glow-text font-semibold">Ape Anglers is a sub-community for BAYC, MAYC, and ApeCoin holders who fish IRL.<div class="my-1"></div><span class="text-xl max-w-3xl mx-auto mb-2 text-black glow-text">We’re here for the catches, the connections, and the culture.</span></p>
+    <div class="my-4"></div>
+    <div class="flex justify-center space-x-4">
+  <a href="https://discord.gg/EBjFFVf8" target="_blank" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Join the Discord</a>
+  <a href="https://x.com/ApeAnglers" target="_blank" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Follow Us on X</a>
+</div>
 </section>
-  <hr class="border-slate-900 mt-8">
+  
+  <!-- About Section -->
+  <section id="about" class="shadow-xl mt-8 mb-16 scroll-mt-24 py-16 px-6 bg-white bg-opacity-90 text-black container mx-auto rounded-2xl" data-aos="fade-up">
+    <h2 class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-6">ABOUT APE ANGLERS</h2>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-10">Ape Anglers is where degens who love to fish find their crew. We’re here to build real-world connections through shared trips, fishing contests (digital and IRL), gear talk, and those everyday fish stories that somehow get better every time you tell them — all tied back to the APE ecosystem.
 
-  <section class="py-8 px-1 w-full" style="background-color: rgba(255, 255, 255, 0.95);">
-    <div class="max-w-3xl mx-auto">
-        <h2 class="text-2xl font-semibold text-blue-900 mb-4">HOW TO BRIDGE APECOIN FROM ETHEREUM TO APECHAIN</h2>
-      <ol class="list-decimal list-inside text-black max space-y-3">
-        <li>Go to the ApeChain Bridge by visiting https://bridge.apecoin.com</li>
-        <li>Connect Your Wallet: Click “Connect Wallet” (e.g., MetaMask) and make sure you're on the Ethereum Mainnet.</li>
-        <li>Select Tokens and Networks: From: Ethereum - To: Apechain - Token: APE (Apecoin)</li>
-        <li>Enter the Amount: Type the amount of APE you want to bridge to ApeChain.</li>
-        <li>Approve the Transaction: Click “Approve APE” in your wallet to give the bridge access to your tokens.</li>
-        <li>Confirm the Bridge: After approval, click “Bridge” and confirm the transaction in your wallet.</li>
-        <li>Wait for Confirmation: The bridge will process your transfer - this usually takes a few minutes. You’ll receive your APE on ApeChain once complete. </li>
-        <li>You're now earning native yield while supporting the ecosystem!</li>
-      </ol>
-     <p class="mt-6 text-black italic">
-  💡 TIP: You can view your APE on ApeChain using a supported wallet like MetaMask by switching to the ApeChain (Arbitrum Orbit) network. Need help? Reach out to the team in the ApeChain Discord for guidance.
-</p>
+This isn’t about hype or grinding the next meta. It’s about early mornings on the water, swapping tackle tips in Discord, flexing your latest catch, and mixing a little floor price banter in between.
+<div class="my-10 max-w-7xl mx-auto text-center text-xl mb-10">
+Whether you’re deep-dropping offshore, casting from the bank, or just talking shop over a cold one — if you hold an Ape or $APE, you’ve already got a seat on the boat.
+</div>
+    <br>
+    <h2 id="builtforapeswhofish"class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-8">BUILT FOR APES WHO FISH</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+      <div><h3 class="font-bold text-xl mb-4">IRL Group Trips</h3><p>More than just meetups — these are community-led fishing adventures across the US, Mexico, and beyond. Wherever Apes want to cast lines and make memories, we’re there together.</p></div>
+      <div><h3 class="font-bold text-xl mb-4">Community Contests</h3><p>Friendly competitions that bring the crew closer. Photo challenges and on-chain tournaments where you can win $APE, exclusive merch, and — most importantly — earn your bragging rights among fellow Anglers.</p></div>
+      <div><h3 class="font-bold text-xl mb-4">Fishing Chat & Gear Talk</h3><p>This is where the real connections happen. Share your setup, swap stories, drop your latest catch, or pass on tips to help another Ape land theirs. Whether you’re a pro or just getting your feet wet, the crew’s always got your back.</p></div>
+      <div><h3 class="font-bold text-xl mb-4">Web3-Infused Vibes</h3><p>Rooted in BAYC, ApeCoin, and ApeChain — this is where Web3 meets community in a way that feels natural. No shills. No noise. Just a crew of holders building something real together — on-chain and offshore.</p></div>
     </div>
-  </section>
-<!-- Explore More Section -->
-  <section class="py-2 px-6 pb-8 w-full text-center" style="background-color: rgba(255, 255, 255, 0.95);">
-    <h3 class="text-2xl font-semibold text-blue-900 mb-4">MORE RESOURCES</h3>
-    <div class="flex justify-center space-x-8">
-      <a href="https://apechain.com" target="_blank" class="text-black hover:text-amber-400 text-lg">APECHAIN</a>
-      <a href="https://thankape.com" target="_blank" class="text-black hover:text-amber-400 text-lg">Thank Ape</a>
-    </div>
-  </section>
+    <br>
+  <div class="flex items-center justify-center my-12">
+  <div class="border-t-2 border-amber-400 w-1/3"></div>
+  <span class="mx-4 text-2xl">⚓️</span>
+  <div class="border-t-2 border-amber-400 w-1/3"></div>
+</div>
 
-  <hr class="border-slate-900 mt-8">
-
-  <!-- FAQ Section -->
-  <section class="py-8 px-8 w-full" style="background-color: rgba(255, 255, 255, 0.95);">
-    <div class="max-w-3xl mx-auto">
-      <h2 class="text-3xl font-semibold text-blue-900 mb-8 text-center">FREQUENTLY ASKED QUESTIONS</h2>
-      <div class="space-y-6">
-        <div>
-          <h3 class="text-xl font-semibold text-black">Can I bring a +1?</h3>
-          <p class="text-slate-900">Technically, yes — a limited number of +1 passes will be available per trip. +1s must create an ApeChain wallet and complete an onboarding task (TBD). Follow APE ANGLERS on socials for updates & availability.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold text-black">Do I need fishing experience?</h3>
-          <p class="text-slate-900">No experience needed. Each boat has crew and guides to assist all participants.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold text-black">Do I need a fishing license?</h3>
-          <p class="text-slate-900">Yes, for anyone 16+. Licenses are available at each landing. California and Florida prices can be found on their respective wildlife websites (links provided).</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold text-black">Can I rent gear?</h3>
-          <p class="text-slate-900">Yes. Tackle rentals available through each boat or landing. Pricing shared closer to the event.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold text-black">How do I claim my $APE reward?</h3>
-          <p class="text-slate-900">Post-event, connect your wallet via the ApeChain portal to claim on-chain rewards.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-semibold text-black">Will there be more Fishing for $APE events?</h3>
-          <p class="text-slate-900">Yes — if successful, we'll expand to more cities and potentially international waters.</p>
-        </div>
-      </div>
-    </div>
+<h2 id="recentcatches" class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-6 scroll-mt-24">RECENT CATCHES FROM THE CREW</h2>
+  <div class="flex space-x-6 overflow-x-auto pb-4 px-4">
+    <img src="/path/to/IMG_7186.JPG" class="h-48 rounded shadow-lg flex-shrink-0 transform transition duration-300 hover:scale-105" alt="Catch 1">
+    <img src="/path/to/IMG_3957.JPG" class="h-48 rounded shadow-lg flex-shrink-0" alt="Catch 2">
+    <img src="/path/to/IMG_4824.JPG" class="h-48 rounded shadow-lg flex-shrink-0" alt="Catch 3">
+    <img src="/path/to/IMG_5538 copy.png" class="h-48 rounded shadow-lg flex-shrink-0" alt="Catch 4">
+    <img src="/path/to/IMG_7075.JPG" class="h-48 rounded shadow-lg flex-shrink-0" alt="Catch 5">
+    <img src="/path/to/IMG_4826.JPG" class="h-48 rounded shadow-lg flex-shrink-0" alt="Catch 6">
+  </div>
   </section>
 
-  <!-- Contact Section -->
-  <hr class="border-slate-900 mt-8">
-  <section class="py-12 px-8 w-full" style="background-color: rgba(255, 255, 255, 0.95);">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-semibold text-blue-900 mb-4">CONTACT US</h2>
-      <p class="text-black text-xl">Email us <a href="mailto:apeanglers@gmail.com" class="underline text-blue-900">HERE</a></p>
+  <section id="join" class="shadow-xl py-12 px-8 text-center bg-white scroll-mt-24 bg-opacity-90 text-black mt-20 mb-16 container mx-auto rounded-2xl">
+      <h2 class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-6">JOIN OR HOST A TRIP</h2>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-6">Sign up to join an upcoming Ape Anglers fishing trip or to host your own expedition in local waters. Whether you're looking to cast a line with fellow holders or lead the next great outing, this is where the crew comes together.</p>
+    <div class="flex justify-center">
+  <a href="https://discord.gg/EBjFFVf8" target="_blank" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Join the Community</a>
+</div>
+  </section>
+
+  <!-- Fishing for $APE Callout -->
+  <section id="fishingforape" class="shadow-xl scroll-mt-24 py-12 px-8 bg-white bg-opacity-90 text-black text-center mt-20 container mx-auto rounded-2xl">
+    <h2 class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-6">Fishing for $APE <span class="text-lg text-slate-700">(Coming Soon)</span></h2>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-8">Something big is on the horizon. Ape Anglers is gearing up for "Fishing for $APE" — a unique blend of real-world fishing and on-chain rewards. Details coming soon...stay tuned.</p>
+    <div class="flex justify-center">
+  <a href="#" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Get Notified</a>
+</div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="shadow-xl py-12 px-8 bg-white scroll-mt-24 bg-opacity-90 text-black text-center mt-20 mb-40 container mx-auto rounded-2xl">
+    <h2 id="contact" class="text-3xl font-bold text-center text-blue-900 tracking-widest uppercase mb-6">CONTACT US</h2>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-4">Have questions or want to collaborate with Ape Anglers?</p>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-8">📧 Email us at <a href="mailto:apeanglers@gmail.com" class="text-blue-900 underline">apeanglers@gmail.com</a></p>
+    <p class="max-w-7xl mx-auto text-center text-xl mb-6">Connect with us on social:</p>
+    <div class="flex justify-center space-x-4">
+      <a href="https://discord.gg/EBjFFVf8" target="_blank" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Join Discord</a>
+      <a href="https://x.com/ApeAnglers" target="_blank" class="bg-amber-400 text-black font-bold py-3 px-8 rounded-full hover:bg-amber-300 shadow-lg transition transform hover:scale-105">Follow on X</a>
     </div>
   </section>
 
-  <footer class="text-center py-8 text-black max text-sm">
-    &copy; 2025 Fishing for $APE presented by APE ANGLERS. Built with ❤️ and 🐟.
+  <!-- Footer -->
+  <footer class="py-8 text-center text-sm bg-black bg-opacity-100 border-t-4 border-amber-400">
+    <div class="space-x-6 mb-4">
+      <a href="#" class="hover:text-amber-400">Home</a>
+      <a href="https://discord.gg/EBjFFVf8" target="_blank" class="hover:text-amber-400">Discord</a>
+      <a href="https://x.com/ApeAnglers" target="_blank" class="hover:text-amber-400">X (Twitter)</a>
+      <a href="https://boredapeyachtclub.com" target="_blank" class="hover:text-amber-400">BAYC</a>
+      <a href="https://apechain.com" target="_blank" class="hover:text-amber-400">APECHAIN</a>
+    </div>
+    <p>&copy; 2025 Ape Anglers. Powered by Community. Inspired by BAYC & ApeChain. Not affiliated with Yuga Labs.</p>
   </footer>
 </body>
 </html>
