@@ -1,2 +1,2 @@
-# fishing-for-ape
-Landing page for the Fishing for $APE initiative
+# ape-anglers
+Landing page for the Ape Anglers fishing collective
